@@ -1,0 +1,314 @@
+/*most of the galaxy fold mobile device code goes here*/
+
+@media (min-width: 279px) and (max-width:319px) {
+
+    /*css strt*/
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .inner-banner {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .banner .inner-banner h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .banner .inner-banner p {
+        font-size: 12px;
+        line-height: 1.8em;
+        font-weight: 650;
+        color: #000;
+    }
+
+    .inner-banner .btn-success {
+        margin: 15px 0px 50px 0px;
+    }
+
+    .inner-feature {
+        margin-bottom: 15px;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .courses .card {
+        margin-bottom: 30px;
+    }
+
+    .courses .card .card-body .card-title {
+        font-size: 14px;
+        line-height: 1.2em;
+        font-weight: 500;
+        color: #413960;
+        text-transform: capitalize;
+    }
+
+    .courses .card .card-body .btn-success {
+        display: inline-block;
+        padding: 5px 13px;
+        border-radius: 35px;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #fff;
+        background: #21B573;
+        border: 1px solid #21B573;
+        margin: 20px 0px 40px;
+        transition: 1.5s;
+    }
+
+    .card .card-body .info {
+        font-size: 9px;
+        line-height: 1.7em;
+        color: #000;
+        font-weight: 400;
+    }
+
+    .card .card-body .info img {
+        width: 10px;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .card .text-right {
+        text-align: left;
+    }
+
+    .testimonial h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .testimonial .client-img {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        line-height: 1.7em;
+        font-weight: 400;
+        color: #000;
+        margin: 120px 0px 0px;
+    }
+
+    /*css end*/
+}
+
+/*most of the smart phone or mobile device code goes here*/
+
+@media (min-width: 320px) and (max-width:480px) {
+
+    /*css strt*/
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .inner-banner {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .banner .inner-banner h1 {
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .banner .inner-banner p {
+        font-size: 14px;
+        line-height: 1.8em;
+        font-weight: 650;
+        color: #000;
+    }
+
+    .inner-banner .btn-success {
+        margin: 15px 0px 50px 0px;
+    }
+
+    .inner-feature {
+        margin-bottom: 15px;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .courses .card {
+        margin-bottom: 30px;
+    }
+
+    .testimonial h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .testimonial .client-img {
+        margin: 0px 0px 0px 30px;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        line-height: 1.7em;
+        font-weight: 400;
+        color: #000;
+        margin: 140px 0px 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        font-size: 15px
+    }
+
+    #xxxv {
+        position: fixed;
+        z-index: 1;
+        background: #F0FFF0;
+        margin-left: 0px;
+
+    }
+
+    /*css end*/
+}
+
+/*most of the high.r mobile or low.r tab code goes here*/
+
+@media (min-width: 481px) and (max-width:767px) {
+
+    /*css strt*/
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .inner-banner {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .banner .inner-banner h1 {
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .banner .inner-banner p {
+        font-size: 14px;
+        line-height: 1.8em;
+        font-weight: 650;
+        color: #000;
+    }
+
+    .inner-banner .btn-success {
+        margin: 15px 0px 50px 0px;
+    }
+
+    .inner-feature {
+        margin-bottom: 15px;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .courses .card {
+        margin-bottom: 30px;
+    }
+
+    .testimonial h1 {
+        font-size: 25px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .testimonial .client-img {
+        margin: 40px 0px 0px 0px;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        line-height: 1.7em;
+        font-weight: 400;
+        color: #000;
+        margin: 0px 0px 0px 30px;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /*css end*/
+}
+
+/*most of the tablet,notebook,ipad code goes here*/
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    /*css strt*/
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .inner-banner {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .banner .inner-banner p {
+        font-size: 16px;
+        line-height: 1.8em;
+        font-weight: 650;
+        color: #000;
+    }
+
+    .inner-banner .btn-success {
+        margin: 15px 0px 50px 0px;
+    }
+
+    .inner-feature {
+        margin-bottom: 15px;
+    }
+
+    .courses .card {
+        margin-bottom: 30px;
+    }
+
+    .testimonial p {
+        font-size: 14px;
+        line-height: 1.7em;
+        font-weight: 400;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+    /*css end*/
+}

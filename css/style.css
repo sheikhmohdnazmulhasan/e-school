@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    background: #F0FFF0;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 30px;
+    color: #000;
+    transition: .5s;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #21B573;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:focus {
+    color: #21B573;
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success {
+    padding: 8px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #21B573;
+    transition: .5s;
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success:hover {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success:focus {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+
+.banner {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.inner-banner {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.banner .inner-banner h4 {
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #FD511A;
+    margin-bottom: 15px;
+}
+
+.banner .inner-banner h1 {
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.banner .inner-banner h1 span {
+    color: #21B573;
+}
+
+.banner .inner-banner p {
+    font-size: 16px;
+    line-height: 1.8em;
+    font-weight: 650;
+    color: #000;
+}
+
+.inner-banner .btn-success {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #000;
+    margin: 20px 0px 0px 0px;
+    transition: .5s;
+}
+
+.inner-banner .btn-success:hover {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+
+.inner-banner .btn-success:focus {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+
+.feature {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.inner-feature {
+    width: 100%;
+    padding: 60px;
+    background: #F8FFFB;
+    text-align: center;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.inner-feature:hover {
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.inner-feature img {
+    width: 66px;
+    height: 85px;
+    transition: .5s;
+}
+
+
+.inner-feature img:hover {
+    width: 80px;
+    height: 100px
+}
+
+.inner-feature h4 {
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 550;
+    color: #000;
+    text-transform: capitalize;
+    margin: 20px 0px 0px;
+}
+
+.inner-feature p {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #000;
+    margin: 0px 0px 0px;
+}
+
+.courses {
+    width: 100%;
+    padding: 15px 70px;
+}
+
+.courses h1 {
+    font-size: 41px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: #413960;
+    text-transform: capitalize;
+    margin: 0px 0px 50px;
+}
+
+.courses .card {
+    padding: 18px 15px;
+    border: 0px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.courses .card .card-body {
+    padding: 20px 0px 0px;
+}
+
+.courses .card .card-body .card-title {
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #413960;
+    text-transform: capitalize;
+}
+
+.courses .card .card-body .card-text {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 0px 0px 0px;
+}
+
+.courses .card .card-body .btn-success {
+    display: inline-block;
+    padding: 10px 23px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #21B573;
+    margin: 20px 0px 40px;
+    transition: .5s;
+}
+
+.courses .card .card-body .btn-success:hover {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+
+.courses .card .card-body .btn-success:focus {
+    color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+
+.card .card-body .info {
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #000;
+    font-weight: 400;
+}
+
+.card .card-body .info img {
+    width: 16px;
+    height: auto;
+    margin: 0px 5px 0px 0px;
+}
+
+.card .text-right {
+    text-align: right;
+}
+
+.testimonial {
+    width: 100%;
+    padding: 35px 70px;
+}
+
+.testimonial h1 {
+    font-size: 41px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    margin: 0px 0px 50px;
+}
+
+.testimonial .client-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0px 0px 0px 30px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #000;
+    margin: 22px 0px 0px;
+}
+
+.footer {
+    width: 100%;
+    padding: 80px 0px 10px;
+    background-color: #282531;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer .widget {
+    width: 100%;
+    padding: 0px 0px 60px;
+}
+
+.footer .widget ul {
+    display: block;
+}
+
+.footer .widget ul li {
+    list-style: none;
+    display: block;
+}
+
+.footer .widget ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px 0px 5px;
+    cursor: pointer;
+}
+
+.footer .widget ul li a:hover {
+    color: #21B573;
+}
+
+.footer .widget ul li a:focus {
+    color: #21B573;
+}
+
+.footer .widget ul li .active {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 750;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+#xxxv {
+    position: fixed;
+    z-index: 1;
+    background: #F0FFF0;
+    margin-left: 60px;
+
+}
